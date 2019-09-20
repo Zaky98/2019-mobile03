@@ -168,9 +168,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="266dp"
         android:text="Billie Elish, Khalid"
         android:textColor="@color/colorAccent"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
